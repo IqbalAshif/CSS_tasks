@@ -6,5 +6,5 @@ Css assignements from school
 http://users.metropolia.fi/~ashifi/CSS-part2/
 
 
-#css-flexbox
+#css-flexbox:
 http://users.metropolia.fi/~ashifi/css-flexbox/
