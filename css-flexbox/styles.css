@@ -1,0 +1,127 @@
+html,
+body {
+  background-color: white;
+  width: auto;
+  height: 100%;
+  margin: auto;
+  font-family: Roboto, sans-serif;
+  overflow-x: hidden;
+  border-style: dotted;
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+.first-child {
+  width: 75%;
+  background-color: white;
+  height: 22em;
+  flex: 50%;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+.card {
+  width: auto;
+  background-color: lightblue;
+  align-content: center;
+  box-shadow: lightcoral;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+img {
+  width: 100%;
+  height: 70%;
+  display: block;
+  margin: auto;
+}
+.second-child {
+  text-align: center;
+  background-color: rgb(209, 132, 30);
+  padding: 10px;
+  width: 100%;
+  line-height: 0.3;
+}
+#submit {
+  width: 240px;
+  height: 50px;
+  border-radius: 25px;
+  border: 2px solid #fff;
+  line-height: 50px;
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgb(51, 65, 94);
+  text-decoration: none;
+  align-self: center;
+  margin-top: 10px;
+  position: relative;
+  box-sizing: border-box;
+}
+#input {
+  width: 240px;
+  height: 50px;
+  border-radius: 25px;
+  border: 2px solid #fff;
+  line-height: 50px;
+  text-align: center;
+  font-size: 1.5rem;
+  color: grey;
+  text-decoration: none;
+  align-self: center;
+  margin-top: 10px;
+  position: relative;
+  box-sizing: border-box;
+}
+.more > p{
+  line-height: 0.1;
+  font-size: 25px;
+}
+#puppie{
+  font-weight: bold;
+}
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+
+@media only screen and (min-width: 600px) {
+  html,
+  body {
+    border-style: solid;
+  }
+  .parent {
+    flex-direction: row;
+  }
+
+  .first-child {
+    margin-left: 150px;
+    margin-right: 50px;
+    margin-top: 125px;
+  }
+  .second-child {
+    height: max-content;
+    height: 100%;
+    line-height: inherit;
+    font-size: 25px;
+  }
+  .more {
+    position: absolute;
+    left: 38vw;
+    bottom: 0;
+    transform: translate(-100px);
+    text-align: center;
+  }
+}

@@ -1,0 +1,153 @@
+#main-header {
+  text-align: center;
+  color: #800000;
+}
+#matrix-image {
+  height: 280px;
+  width: 100%;
+}
+body {
+  background-color: hsl(0, 100%, 90%);
+  font-family: "Open Sans", sans-serif;
+  margin: 0 auto;
+  width: 100%;
+}
+#line{
+  background-color: black;
+ padding: 2px;
+}
+.link li {
+  display: inline;
+}
+.link a {
+  background-color: rgba(53, 55, 63, 0.75);
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 20px;
+  color: rgb(42, 168, 207);
+}
+.link a:hover{
+  color: blue;
+}
+
+.main {
+  margin-left: 50px;
+}
+
+#photo-left {
+  float: left;
+  margin-right: 20px;
+  margin-left: auto;
+  width: 150px;
+  height: 200px;
+  border-radius: 50%;
+}
+.htext {
+  color: green;
+  float: left;
+}
+#footer {
+  left: 350px;
+  right: 350px;
+  bottom: 100%;
+  width: 100%;
+  background-color: rgba(53, 55, 63, 0.75);
+  text-align: center;
+}
+#distro{
+  font-size: 1.2em;
+}
+#footer a {
+  text-decoration: none;
+  color: rgb(42, 168, 207);
+}
+#footer a:hover{
+  color: blue;
+}
+
+.linux {
+  margin-left: 50px;
+}
+.linux ul {
+  list-style-image: url("images/linux.jpg");
+}
+.list a {
+  text-decoration: none;
+  color: rgb(0, 0, 102);
+}
+.list a:visited{
+  color:red;
+}
+.list a:hover{
+  color: blue;
+}
+
+
+
+
+@media only screen and (max-width: 1024px){
+
+  #matrix-image {
+    display: none;
+  }
+
+  body p {
+    padding: 20px 0px 0px;
+    
+  }
+  body {
+    background-color: hsl(140, 100%, 90%);
+  }
+
+
+  .main {
+    margin-left: 0;
+  }
+
+  #line{
+    background-color: black;
+    padding: 0.3px;
+  }
+
+}
+
+
+@media only screen and (max-width: 768px){
+
+  #matrix-image {
+    display: none;
+  }
+  .main {
+    margin-left: 0;
+  }
+  #photo-left {
+   display: none;
+  }
+
+  .linux ul {
+    list-style-image: none;
+    list-style-type: square;
+  }
+  .linux li{
+    display: inline;
+  }
+
+  #second-para{
+    display: none;
+  }
+
+  #third-para{
+    display: none;
+  }
+
+  #line{
+    display: none;
+  }
+
+  #photo-left {
+   display: none;
+  }
+
+}
